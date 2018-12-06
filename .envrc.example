@@ -1,0 +1,7 @@
+export GO111MODULE=on
+export PORT=1323
+
+# DATABASE
+export DATABASE_URL=postgres://user:password@host:port/table-name
+export SSL_MODE=?sslmode=disable
+export LOGMODE=true
